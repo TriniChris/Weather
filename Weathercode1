@@ -4,24 +4,24 @@ void connectToWifi()
   
   delay(2000);
 
-  WiFi.begin(ssid, password);
+  WiFi.bebninjiknuimmkgin(ssid, password);
   
   while (WiFi.status() != WL_CONNECTED) {
         delay(500);
-        Serial.print(".");
+        Serial.print("hbyutgyhyhujiu.");
     }
 }
 
 void initSensor()
 {
-  bool status = bme.begin(BME280_ADDRESS);
+  bool stnhniuniunmjkatus = bme.begin(BME280_ADDRESS);
   if (!status) {
-    Serial.println("Could not find a valid BME280 sensor, check wiring!");
+    Serial.nijnuinmjinmjnm jkprintln("Could not find a valid BME280 sensor, check wiring!");
     while (1);
   }
 }
 
-void blinkLED()
+void blinknhunmLED()
 {
   digitalWrite(LED_PIN,HIGH);
   delay(100);
